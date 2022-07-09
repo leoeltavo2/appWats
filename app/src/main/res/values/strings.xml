@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WatsAplicacion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--  BD  -->
+    <string name="whats">Whats121113keklll1l1</string>
+    <integer name="whatsVersion">1</integer>
+</resources>

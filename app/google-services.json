@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "272647053917",
+    "project_id": "wats-47ca3",
+    "storage_bucket": "wats-47ca3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272647053917:android:fa2b9a6b3e4cb5db8ee3b4",
+        "android_client_info": {
+          "package_name": "com.example.watsaplicacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272647053917-7o6oaj11sndd7fd38429s7tlq68gd28b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.watsaplicacion",
+            "certificate_hash": "91f055f04278bc3d8d4ed1994d91b8788050c1f8"
+          }
+        },
+        {
+          "client_id": "272647053917-udtkgfn66ftp9jr0o08vgaaehlsrhkak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4lncUCp9EZrRiZypZS-CAZ_Q1L_0_DZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272647053917-udtkgfn66ftp9jr0o08vgaaehlsrhkak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/videollamadaMensajes"
+        android:icon="@drawable/videollamada"
+        android:title="videollamada"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/llamadaMensajes"
+        android:icon="@drawable/llamada"
+        android:title="llamada"
+        app:showAsAction="always"/>
+    <group
+
+        android:id="@+id/menu_grupo_mensajes">
+
+        <item
+            android:id="@+id/ver_contacto"
+            android:title="Ver contacto"/>
+        <item
+            android:id="@+id/archivos_enlaces"
+            android:title="Archivos, enlaces y docs"/>
+        <item
+            android:id="@+id/buscar_mensajes"
+            android:title="Buscar"/>
+        <item
+            android:id="@+id/silenciar_not"
+            android:title="Silenciar notificaciones"/>
+        <item
+            android:id="@+id/fondo_pantalla"
+            android:title="Fondo de pantalla"/>
+        <item
+            android:id="@+id/mas"
+            android:title="Más"/>
+
+    </group>
+</menu>

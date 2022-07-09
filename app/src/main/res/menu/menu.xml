@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/buscar"
+        android:icon="@drawable/buscar"
+        android:title="Buscar"
+        app:showAsAction="always"/>
+<group
+
+    android:id="@+id/menu_grupo">
+
+    <item
+        android:id="@+id/nuevo_grupo"
+        android:title="Nuevo grupo"/>
+    <item
+        android:id="@+id/nueva_dif"
+        android:title="Nueva difusión"/>
+    <item
+        android:id="@+id/whats_web"
+        android:title="WhatsApp Web"/>
+    <item
+        android:id="@+id/mensajes_dest"
+        android:title="Mensajes destacados"/>
+    <item
+        android:id="@+id/ajustes"
+        android:title="Ajustes"/>
+
+</group>
+</menu>

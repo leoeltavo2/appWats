@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inicio.InicioActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido a  mi WhatssApp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="@color/whats"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="270dp"
+            android:layout_margin="50dp"
+            android:src="@drawable/whatsapp_icono"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Una copia de la aplicación de WhatsApp"
+            android:textColor="@color/whats"
+            android:padding="15dp"
+            android:textSize="15dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btnInicioContinuar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Continuar"
+            android:background="@color/whatsIcon"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hecho por"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L E O N E L"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/whats"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
